@@ -1,0 +1,23 @@
+.CLI {
+  width: 70vw;
+  height: 50vh;
+  color: white;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  white-space: pre-line;
+}
+
+.CLI-cursor {
+  color: #2e3d48;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
